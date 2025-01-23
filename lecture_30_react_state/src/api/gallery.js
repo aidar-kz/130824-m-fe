@@ -1,6 +1,6 @@
 export const galleryList = [
     {
-        name: 'Portrait # 2',
+        name: 'Portrait # 3',
         artist: 'Belal Khaled',
         description: 'I love love love the eyes in this portrait. I love the greens and the contrast. All the different textures and markings on it make it so interesting to me.',
         url: 'https://i.pinimg.com/736x/b8/ca/33/b8ca336341665be56341820244c95790.jpg',
