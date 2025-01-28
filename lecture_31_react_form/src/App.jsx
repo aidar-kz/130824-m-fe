@@ -1,11 +1,10 @@
 import './App.css'
+import HandlingEvents from './components/HandlingEvents.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>App</h1>
+      <HandlingEvents />
     </>
   )
 }
