@@ -1,12 +1,10 @@
 import './App.css'
+import HandlingEvents from './components/HandlingEvents.jsx'
 
 function App() {
-
   return (
     <>
-      <h1>Hallo Oleg</h1>
-      <h1>Hallo Ekaterina</h1>
-      <h1>Hallo Ella</h1>
+      <HandlingEvents />
     </>
   )
 }
