@@ -1,0 +1,47 @@
+.text {
+   color: gray;
+   text-decoration: line-through;
+}
+
+.containerT {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.marker {
+   width: 5px;
+   height: 5px;
+}
+
+.red {
+   margin-right: 30px;
+   background-color: red;
+   width: 15px;
+   height: 15px;
+   border-radius: 50px;
+}
+
+.green {
+   margin-right: 30px;
+   background-color: green;
+   width: 15px;
+   height: 15px;
+   border-radius: 50px;
+}
+
+.descr {
+   text-align: left;
+}
+
+p {
+   padding-left: 50px;
+}
+
+.light{
+   background-color: bisque;
+ }
+ 
+ .dark{
+   background-color:blueviolet;
+ }
