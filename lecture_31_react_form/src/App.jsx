@@ -6,6 +6,7 @@ function App() {
     <>
       <h1>Hallo Oleg</h1>
       <h1>Hallo Ekaterina</h1>
+      <h1>Hallo Ella</h1>
     </>
   )
 }
