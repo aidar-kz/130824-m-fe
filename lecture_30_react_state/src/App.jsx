@@ -16,24 +16,32 @@ function App() {
 
   const handleDescClick = () => {
     const updatedShowDescStates = [...showDescStates];
-    updatedShowDescStates[index] = !updatedShowDescStates[index]
+    updatedShowDescStates[index] = !updatedShowDescStates[index];
     setShowDescStates(updatedShowDescStates);
   }
 
   return (
     <>
-      <WhyState gallery={galleryList} />
+      {/* <WhyState gallery={galleryList} /> */}
       {/* <UseState gallery={galleryList} /> */}
       {/* <MultiState gallery={galleryList} /> */}
       {/* <PrivateState gallery={galleryList} /> */}
-      {/* <SharedState
+      <SharedState
         gallery={galleryList}
         index={index}
         showDesc={showDescStates[index]}
         handlePrevClick={handlePrevClick}
         handleNextClick={handleNextClick}
         handleDescClick={handleDescClick}
-      /> */}
+      />
+      <SharedState
+        gallery={galleryList}
+        index={index}
+        showDesc={showDescStates[index]}
+        handlePrevClick={handlePrevClick}
+        handleNextClick={handleNextClick}
+        handleDescClick={handleDescClick}
+      />
     </>
   )
 }

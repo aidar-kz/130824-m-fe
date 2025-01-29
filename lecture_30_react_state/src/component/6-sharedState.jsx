@@ -4,10 +4,10 @@
  *   1. Удалить состояние из дочерних компонентов.
  *   2, И добавить его к их ближайшему общему родительскому компоненту. 
  */
-export default function Gallery({ gallery, index, showDesc, handlePrevClick, handleNextClick, handleDescClick }) {
+function Gallery({ gallery, index, showDesc, handlePrevClick, handleNextClick, handleDescClick }) {
 
     let itemObj = gallery[index]
-    let isLast = index === gallery.length - 1
+    let isLast = index === gallery.length - 1 // true/false
 
     return (
         <>
@@ -28,3 +28,5 @@ export default function Gallery({ gallery, index, showDesc, handlePrevClick, han
         </>
     )
 }
+
+export default Gallery
