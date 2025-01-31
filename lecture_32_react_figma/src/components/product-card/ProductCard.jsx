@@ -1,7 +1,6 @@
-import React from "react";
+import { Link } from "react-router";
 import st from "./ProductCard.module.scss";
 import ButtonLink from "../ui/button-link/ButtonLink.jsx";
-import { Link } from "react-router";
 
 export default function ProductCard({ product }) {
   return (
