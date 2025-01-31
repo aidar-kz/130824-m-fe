@@ -1,10 +1,10 @@
 import { Link } from 'react-router'
-import './HomePage.scss'
+import './JewelryPage.scss'
 
-export default function HomePage() {
+export default function JewelryPage() {
     return (
         <div className='page-container'>
-            <h1>Лучший магазин лучших вещей</h1>
+            <h1>Jewelry</h1>
             <div className="grid">
                 <Link className='category-link' to='/electronics'>electronics</Link>
                 <Link className='category-link' to='/jewelry'>jewelry</Link>
