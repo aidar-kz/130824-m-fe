@@ -1,0 +1,22 @@
+.home-page {
+    padding: 50px;
+}
+
+.grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.category-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    color: #333;
+    width: 100%;
+    max-width: 347px;
+    height: 53px;
+}
