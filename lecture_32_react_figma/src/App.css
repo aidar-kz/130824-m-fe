@@ -23,3 +23,7 @@ a {
 .main-content {
   flex: 1;
 }
+
+.page-container {
+  padding: 50px;
+}
